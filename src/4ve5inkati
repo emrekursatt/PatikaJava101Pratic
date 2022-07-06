@@ -1,0 +1,22 @@
+4 ve 5 in katını bulma
+
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+       
+       int a;
+       
+       Scanner  input = new Scanner(System.in);
+       System.out.println("Sınırı Belirle");
+       a = input.nextInt();
+       
+       
+       for ( int i = 1 ; i <= a ; i*=20 ){
+           System.out.println(i);
+           }
+       }
+   
+    }
+    
